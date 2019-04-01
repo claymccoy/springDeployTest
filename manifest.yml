@@ -1,0 +1,8 @@
+---
+applications:
+- name: clayDemo
+  env:
+    JAVA_OPTS: -Djava.security.egd=file:///dev/urandom
+  instances: 1
+  routes:
+  - route: test.apps.montclair.cf-app.com
