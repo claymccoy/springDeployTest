@@ -4,5 +4,3 @@ applications:
   env:
     JAVA_OPTS: -Djava.security.egd=file:///dev/urandom
   instances: 0
-  routes:
-  - route: test.apps.montclair.cf-app.com
